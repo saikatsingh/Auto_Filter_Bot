@@ -217,7 +217,7 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-FQDN = "compact-sparrow-creazysaikatstore-0dcab082.koyeb.app"
+FQDN = "foreign-stefania-creazysaikatstore-6b5090e5.koyeb.app"
 URL = f"https://{FQDN}/"
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
